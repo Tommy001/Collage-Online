@@ -15,7 +15,7 @@ Med det sagt, gör så här:
 Gå till önskad mapp på din webbserver och klona mitt repo från Github:
 > git clone https://github.com/Tommy001/Collage-Online.git
 
-Skapa följande tomma mappar på samma nivå som index.php:
+Skapa följande tomma mappar på samma nivå som index.php och se till att de är både skriv- och läsbara (chmod 777):
 
 *collage*
 
