@@ -47,8 +47,6 @@ $collageimg = isset($_POST['collageimg']) ? $_POST['collageimg'] : '';
             		<img id="frame4" src="http://www.student.bth.se/~toja14/javascript/img/frames/guldram.png" alt='frame4'>
 		            <img id="frame5" src="http://www.student.bth.se/~toja14/javascript/img/frames/gold-scrollwork-rectangle.png" alt='frame5'>            
         		</div>
-		        <div id='board_b'>
-                </div>
         		<div id='board'>
 			        <canvas id="canvas_image1" style='z-index:1' width=600 height=700></canvas>
            			<canvas id="canvas_image2"  style='z-index:2' width=600 height=700></canvas>
