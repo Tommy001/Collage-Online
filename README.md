@@ -8,7 +8,7 @@ Det finns en del att tänka på när man hanterar HTML5 Canvas-element. Det finn
 
 Det som kan hända är att det inte går att ladda upp en arbetsfil eller en färdig collage-bild till servern. 
 
-Testa därför inte Collage Online lokalt på din dator med WAMP- eller XAMP-server eller liknande. Klona i stället repot från Github till din webbserver eller prova demot på den här webbplatsen. (Klicka på Demo ovan).
+Testa därför inte Collage Online lokalt på din dator med WAMP- eller XAMP-server eller liknande. Klona i stället repot här från Github till *din webbserver*.
 
 Med det sagt, gör så här:
 
