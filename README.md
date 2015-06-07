@@ -16,8 +16,11 @@ Gå till önskad mapp på din webbserver och klona mitt repo från Github:
 > git clone https://github.com/Tommy001/Collage-Online.git
 
 Skapa följande tomma mappar på samma nivå som index.php:
+
 *collage*
+
 *collage_img*
+
 *tmp*
 
 **Klart!**
