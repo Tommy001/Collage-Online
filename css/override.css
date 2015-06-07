@@ -1,0 +1,314 @@
+body{overflow-x:hidden}
+
+#wrapper{    
+   width:100%;
+  height: auto; 
+  min-height: 900px;
+   } 
+   
+#wrap{  
+    position: relative;
+   width:100%;
+  height: auto; 
+  min-height: 100%;
+} 
+.row{
+    margin-bottom:25px !important;
+}
+
+.panorama{
+    margin-top:25px;
+    width:100%;
+
+}
+.manual{
+    background:rgba(238, 238, 238, 0.9);
+    position: absolute;
+    top:114px;
+    left:182px;
+    width:596px;
+    z-index:20;
+    padding:10px;
+    height:696px;
+    overflow-y:auto;
+    display:none;
+}
+#manual_radio{
+    position: absolute;
+    top:15px;
+    left:790px;
+}
+
+.demo_button{
+    margin-top:25px;
+    text-align:center;
+}
+
+td {
+    text-align:center !important;
+}
+
+#drop-target {
+    background-color: #eee;
+    border: 1px solid #222;
+    left: 12px;
+    padding: 12px;
+    position: absolute;
+    text-align: center;
+    top: 12px;
+    width: 140px;
+    height:100px;
+    z-index:999;
+}
+
+#preview {
+    position: absolute;
+    top:112px;
+    left:12px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    margin-left: 0px;
+    padding: 12px;
+    width: 140px;
+    max-height:700px;
+    overflow-x:hidden;
+    overflow-y:auto;    
+        z-index:999;
+}
+
+#HR canvas {
+    position: absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+
+#preview div{
+display:inline;
+}
+
+#board {
+    position: absolute;
+    top:112px;
+    left:180px;
+    height:700px;
+    width:600px;
+    background-color: #eee;
+    border: 1px solid #ccc; 
+}
+#board_b{
+    position: fixed;
+    top:112px;
+    left:180px;    
+    height:700px;
+    width:600px;
+}
+#canvas_board {
+    border: 1px solid #ccc; 
+}
+
+#board canvas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:100%;
+  
+}
+
+.well .success {
+    background: rgb(22, 105, 173);
+}
+
+.btn{margin-bottom:3px;}
+
+.over{
+z-index:10;
+}
+.under{
+z-index:1;
+}
+
+#layermode{
+left:0;
+}
+#layerbox{
+position:absolute;
+top:112px;
+left:790px;
+width:210px;
+height:360px;
+border:#eee 1px solid;
+padding:10px;
+}
+#layermode p, #knappar p, #manual_radio p{
+white-space:nowrap; 
+}
+.overlay{
+background: url(../img/712.gif) no-repeat scroll center center;
+}
+
+.hidden{
+display:none;
+}
+.visible{
+display:none;
+}
+#dropdown{
+float:left;
+}
+#ramar{
+float:right;
+clear:right;
+}
+#buttons{
+float:right;
+}
+#more_buttons{
+position:absolute;
+top:703px;
+left:790px;
+}
+#more_buttons .input-group .form-control {
+width:150px !important;
+}
+#filecontrol{
+position:absolute;
+top:520px;
+left:790px;
+width: 150px;
+}
+#selectcollage, #selectfile{
+width: 210px;
+}
+input#delete_all {
+  width: 213px;
+}
+button#show_manual{ 
+    width:213px;
+}
+
+#collagecontrol{
+position:absolute;
+top:480px;
+left:790px;
+width: 150px;
+}
+
+#output{
+    position: absolute;
+    top: 14px;
+    left: 162px;
+    width:600px !important;
+    height:100px !important;
+}
+
+
+.working{
+background: #aaf;
+padding:1em;}
+
+
+#demo li.demo a, #competition li.competition a, #instructions li.instructions a, #about li.about a, #index li.index a {
+    border-bottom: medium solid #fff;
+    color: #fff !important;
+    font-size: 1.4em !important;
+}
+
+.navbar {
+    background-color: #2E3E6F;
+    border-color: #030033;
+}
+#footer > .footer {
+    background-color: #2E3E6F;
+    border-color: solid 2px #030033;
+}
+
+
+.navbar .nav > li > a:hover,
+.navbar .nav > li > a:focus {
+    text-decoration: none;
+    color:#FFF !important;
+    background-color: #2A4D8F; /*Change rollover cell color here*/
+}
+
+.navbar .nav > li > a:link,
+.navbar .nav > li > a:visited {
+   font-size: 1.4em !important;
+   color:#9ADCFF !important; /*Change link color here*/
+}
+
+.top-padding { 
+    padding-top:0px !important; 
+}
+
+.bottom-buffer { 
+    margin-bottom:20px; 
+}
+
+.top-buffer { 
+    margin-top:20px; 
+}
+
+.userborder {
+    border:dashed #222;
+    border-width:1px 1px 1px 0px;   
+}
+
+.right-to-left li { 
+    float: right; 
+}
+
+.title-color{
+    color:#FFF;
+}
+
+
+.fot > a:link,
+a:hover,
+a:visited,
+a:active {
+    text-decoration:none;
+    color:#337AB7 !important;
+}
+
+.navbar-btn {
+    margin-right:10px !important;
+    display:inline !important;
+}
+
+
+
+.buttonbar{
+    float:left;
+    clear:both;
+    padding-top:20px;
+}
+.buttonpadding{
+    margin:2px;
+}
+
+body #index {
+   /* background-image: url('../img/moodboard.JPG'); */
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.panel-transparent {
+    background: rgba(255, 255, 255, 0.5)!important;
+}
+
+.panel-transparent .panel-heading{
+    background: rgba(245, 245, 245, 0.9)!important;
+}
+
+.panel-transparent .panel-body{
+    background: rgba(255, 255, 255, 0.9)!important;
+}
+
+
+.panel-transparent .jumbotron{
+    background: rgba(245, 245, 245, 0.7)!important;
+}
+
